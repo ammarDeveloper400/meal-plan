@@ -1,0 +1,27 @@
+/* scrollbar */
+@import 'simplebar-react/dist/simplebar.min.css';
+
+::-webkit-scrollbar {
+    width: 10px; /* Width of the vertical scrollbar */
+    height: 10px; /* Height of the horizontal scrollbar */
+    border-radius: 20px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05); /* Color of the track */
+    border-radius: 20px;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #F79256; /* Color of the scroll thumb */
+    border-radius: 20px; /* Radius for the scroll thumb */
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #B6B6B6; /* Color of the scroll thumb on hover*/
+  }
+  
+
+  ::-ms-reveal{
+    display: none;
+  }

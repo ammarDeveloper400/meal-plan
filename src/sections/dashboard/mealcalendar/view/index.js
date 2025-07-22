@@ -1,0 +1,1 @@
+export { default as MealPlanningView } from './mealplanning-view';
